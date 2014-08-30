@@ -31,7 +31,7 @@ Available states
 
 ``java``
 ~~~~~~~~
-Manage Java JRE and JDK
+Install and manage Java JRE and JDK from source
 
 Additional resources
 --------------------
