@@ -1,0 +1,9 @@
+{% load_yaml as rawmap %}
+Debian:
+  jre:
+    root:
+      path: /opt/java/jre
+  jdk:
+    root:
+      path: /opt/java/jdk
+{% endload %}
