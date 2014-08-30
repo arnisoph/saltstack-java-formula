@@ -25,8 +25,8 @@ java_{{ package }}_{{ id }}_archive:
     {% if 'source_hash' in data %}
     - source_hash: {{ data.source_hash }}
     {% endif %}
-    - archive_format: tar
-    - keep: True
+    - archive_format: {{ data.archive_format|default('tar') }}
+    - keep: {{ data.archive_cache|default(True) }}
 
 java_{{ package }}_{{ id }}_perm:
   file:
