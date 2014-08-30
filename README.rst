@@ -2,7 +2,7 @@
 java-formula
 ============
 
-Salt Stack Formula to set up and configure Java, a computer programming language aimed to waste your memory
+Salt Stack Formula to set up and configure Java, a computer programming language best to waste your memory
 
 NOTICE BEFORE YOU USE
 ---------------------
