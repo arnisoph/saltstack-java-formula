@@ -6,7 +6,7 @@
 include: {{ datamap.sls_include|default([]) }}
 extend: {{ datamap.sls_extend|default({}) }}
 
-{% for package in salt['pillar.get']('java:manage', []) %}
+{% for package in salt['pillar.get']('java', []) if package in ['jre', 'jdk'] %}
 java_{{ package }}_dir:
   file:
     - directory

@@ -1,6 +1,4 @@
 java:
-  manage:
-    - jdk
   jdk:
     current_ver: 8u20
     versions:
