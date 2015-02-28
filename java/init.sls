@@ -55,4 +55,12 @@ java_{{ package }}_current:
     - makedirs: True
     - user: root
     - group: root
+
+java_{{ package }}_current_active:
+  file.symlink:
+    - name: /usr/bin/java
+    - target: {{ datamap[package].root.path }}/current/src/bin/java
+    - makedirs: True
+    - user: root
+    - group: root
 {% endfor %}
