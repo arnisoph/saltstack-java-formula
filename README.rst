@@ -72,10 +72,6 @@ TODO
 Additional Resources
 --------------------
 
-Recommended formulas:
-
-* SaltStack management: `saltstack-salt-formula <https://github.com/bechtoldt/saltstack-salt-formula>`_
-
 Further reading:
 
 * Documentation and Standardisation of SaltStack formulas: https://github.com/bechtoldt/formula-docs
