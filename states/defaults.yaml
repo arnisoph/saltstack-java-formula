@@ -1,0 +1,8 @@
+kernel:
+  Linux:
+    jre:
+      root:
+        path: /opt/java/jre
+    jdk:
+      root:
+        path: /opt/java/jdk
